@@ -1,4 +1,4 @@
-# TopHat Themes
+# Tophat Themes
 
 Free, open source themes to give Bootstrap 4 a custom, stylish look.
 
