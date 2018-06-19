@@ -17,7 +17,7 @@ the `bootstrap.css`.
 
 ```
 
-Additionally, each theme folder contains 3 example layout templates to get your started. Each template has a corresponding `template.css`
+Additionally, each theme folder contains example layout templates to get your started. Each template has a corresponding `template.css`
  with styles specific to each template, but it's use is optional, and unrelated to the theme styles in `theme.css`.
 
 - index.html (default)
