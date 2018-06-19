@@ -10,7 +10,7 @@ Each theme also includes example layout templates to demonstrate Bootstrap 4 ele
 
 Clone this repository or download individual themes as desired. Each theme folder contains a `theme.css` file which is the 
 custom styles (colors, fonts, etc..) that you can use for your Bootstrap 4 projects. The `theme.css` file should always follow
-the `bootstrap.css`.
+the `bootstrap.css`:
 
 ```
 <link href="/path/to/bootstrap.min.css">
