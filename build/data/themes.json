@@ -1,0 +1,287 @@
+{	
+	"version": "4.1.1",
+	"themes": [
+		{
+		"name": "Wandoo",
+		"fonts": {
+		    "headings":"Comfortaa",
+		    "base":"Nunito"
+		},
+		"desc": "A pleasant theme with red primary color.",
+		"vars": {
+		    "gray-300": "#e0e0e0"
+		},
+		"colors": {
+			"primary": "#FF304F",
+			"secondary": "#CACACA",
+			"success": "#015668",
+			"danger": "#06648C",
+			"info": "#0F81C7",
+			"warning": "#0DE2EA",
+			"light": "#ececec",
+			"dark": "#222222"
+		}},
+		{
+	      "name": "Graymor",
+	      "fonts": {
+		    "headings":"Oswald",
+		    "base":"Muli"
+		  },
+		  "vars": {
+			"enable-rounded": false
+		  },
+	      "desc": "Square corners with shades of gray and sea green.",
+	      "colors": {
+	        "primary": "#2f3c48",
+	        "secondary": "#6f7f8c",
+	        "success": "#3e4d59",
+	        "danger": "#cc330d",
+	        "info": "#5c8f94",
+	        "warning": "#6e9fa5",
+	        "light": "#eceeec",
+	        "dark": "#1e2b37"
+	    }},
+	    {
+		"name": "Lymcha",
+		"desc": "Like a sunny summer day in Northern Italy.",
+		"fonts": {
+		    "headings":"Muli"
+		},
+		"colors": {
+			"primary": "#07689F",
+			"secondary": "#C9D6DF",
+			"success": "#11D3BC",
+			"danger": "#F67280",
+			"info": "#A2D5F2",
+			"warning": "#FF7E67",
+			"light": "#FAFAFA",
+			"dark": "#4e4e4e"
+		}},
+		{
+		"name": "Deeply",
+		"desc": "A dark background theme with bold contrasting colors.",
+		"fonts": {
+		    "headings":"Comfortaa"
+		},
+		"images": {
+			"bg":"https://images.unsplash.com/photo-1489846986031-7cea03ab8fd0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a6c62b8e2662924c44c4725b8286ed60&auto=format&fit=crop&w=1600&q=80"
+		},
+		"custom":".navbar-dark.bg-primary {background-color:#111111 !important;}",
+		"vars": {
+			"enable-shadows": true,
+	        "gray-300": "#000000",
+	        "gray-800": "#555555",
+	        "body-bg": "$black",
+	        "body-color": "#cccccc",
+	        "link-color": "#f0f0f0",
+	        "link-hover-color": "darken($link-color,20%)",
+	        "font-size-base": "1.1rem",
+	        "table-accent-bg": " rgba($white,.05)",
+	        "table-hover-bg": "rgba($white,.075)",
+	        "table-border-color": "rgba($white, 0.3)",
+	        "table-dark-border-color": " $table-border-color",
+	        "table-dark-color": "$white",
+	        "input-bg": "$gray-300",
+	        "input-disabled-bg": " #ccc",
+	        "dropdown-bg": "$gray-800",
+	        "dropdown-divider-bg": "rgba($black,.15)",
+	        "dropdown-link-color": "$body-color",
+	        "dropdown-link-hover-color": "$white",
+	        "dropdown-link-hover-bg": "$body-bg",
+	        "nav-tabs-border-color": "rgba($white, 0.3)",
+	        "nav-tabs-link-hover-border-color": "$nav-tabs-border-color",
+	        "nav-tabs-link-active-bg": "transparent",
+	        "nav-tabs-link-active-border-color": "$nav-tabs-border-color",
+	        "navbar-dark-hover-color": "$white",
+	        "navbar-light-hover-color": "$gray-800",
+	        "navbar-light-active-color": "$gray-800",
+	        "pagination-color": "$white",
+	        "pagination-bg": "transparent",
+	        "pagination-border-color": "rgba($black, 0.6)",
+	        "pagination-hover-color": "$white",
+	        "pagination-hover-bg": "transparent",
+	        "pagination-hover-border-color": "rgba($black, 0.6)",
+	        "pagination-active-bg": "transparent",
+	        "pagination-active-border-color": "rgba($black, 0.6)",
+	        "pagination-disabled-bg": "transparent",
+	        "pagination-disabled-border-color": "rgba($black, 0.6)",
+	        "jumbotron-bg": "darken($gray-900, 5%)",
+	        "card-border-color": "rgba($black, 0.6)",
+	        "card-cap-bg": "lighten($gray-800, 10%)",
+	        "card-bg": "lighten($body-bg, 5%)",
+	        "modal-content-bg": "lighten($body-bg,5%)",
+	        "modal-header-border-color": "rgba(0,0,0,.2)",
+	        "progress-bg": "darken($gray-900,5%)",
+	        "progress-bar-color": "$gray-600",
+	        "list-group-bg": "lighten($body-bg,5%)",
+	        "list-group-border-color": "rgba($black,0.6)",
+	        "list-group-hover-bg": "lighten($body-bg,10%)",
+	        "list-group-active-color": "$white",
+	        "list-group-active-bg": "$list-group-hover-bg",
+	        "list-group-active-border-color": "$list-group-border-color",
+	        "list-group-disabled-color": "$gray-800",
+	        "list-group-disabled-bg": "$black",
+	        "list-group-action-color": "$white",
+	        "breadcrumb-active-color": "$gray-500"
+	      },
+	      "colors": {
+	      	"primary": "#FF550B",
+	        "secondary": "#303030",
+	        "success": "#015668",
+	        "danger": "#FF304F",
+	        "info": "#0F81C7",
+	        "warning": "#0DE2EA",
+	        "light": "#e8e8e8",
+	        "dark": "#000000"
+	    }},
+		{
+		"name": "Mickie",
+		"fonts": {
+		    "headings":"Raleway"
+		},
+		"desc": "Like a precocious child that doesn't go away.",
+		"images": {
+			"bg": "https://images.unsplash.com/photo-1495977958109-d0a07c767f0e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b819fca66b1fedb4965a8693121df7d&auto=format&fit=crop&w=1600&q=80"
+		},
+		"custom": "html {font-size: 0.8rem;}@include media-breakpoint-up(sm) {html {font-size: .9rem;}}@include media-breakpoint-up(md) {html {font-size: 1rem;}}@include media-breakpoint-up(lg) {html {font-size: 1.1rem;}}",
+		"colors": {
+			"primary": "#f6648C",
+			"secondary": "#CACACA",
+			"success": "#035668",
+			"danger": "#FF444F",
+			"info": "#3F81C7",
+			"warning": "#0DE2EA",
+			"light": "#eAeAeA",
+			"dark": "#223322"
+		}},
+		{
+	    "name": "Electro",
+	    "fonts": {
+		    "headings":"Nunito"
+		},
+	    "desc": "The intense, saturated blue theme with rounded buttons.",
+	    "vars": {
+	        "body-bg": "#ffffff",
+	        "display1-weight": "600",
+	    	"display2-weight": "600",
+	    	"display3-weight": "600",
+	    	"btn-border-radius": "1.3rem",
+		    "btn-border-radius-lg": "1.6rem",
+		    "btn-border-radius-sm": ".8rem"
+	    },
+	    "colors": {
+	        "primary": "#1633ff",
+	        "secondary": "#a0b7bc",
+	        "success": "#1633ff",
+	        "danger": "#00f900",
+	        "info": "#7ebcfa",
+	        "warning": "#00f900",
+	        "light": "#eef0f2",
+	        "dark": "#000633"
+	    }},
+		{
+		"name": "Hollar",
+		"fonts": {
+		    "headings":"Autour One",
+		    "base":"Open Sans"
+		},
+		"desc": "A nature toned theme with big font.",
+		"colors": {
+			"primary": "#528165",
+			"secondary": "#eed75a",
+			"success": "#FEC100",
+			"danger": "#703B3B",
+			"info": "#63e792",
+			"warning": "#FFE869",
+			"light": "#FDFBF7",
+			"dark": "#555555"
+		}},
+		{
+		"name": "Minco",
+		"fonts": {
+		    "headings":"Crete Round",
+		    "base":"Nunito"
+		},
+		"desc": "Unique and stylish with a readable font.",
+		"colors": {
+			"primary": "#083358",
+			"secondary": "#F67280",
+			"success": "#0074E4",
+			"danger": "#FF4057",
+			"info": "#74DBEF",
+			"warning": "#FC3C3C",
+			"light": "#F2F2F0",
+			"dark": "#072247"
+		}},
+		{
+		"name": "Skeeblu",
+		"fonts": {
+		    "headings":"Yantramanav"
+		},
+		"desc": "A big, blue sky and no clouds in sight.",
+		"vars": {"body-bg":"#efefef"},
+		"colors": {
+			"primary": "#27a2fc",
+			"secondary": "#a0b7bc",
+			"success": "#37bd74",
+			"danger": "#e8286b",
+			"info": "#7ebcfa",
+			"warning": "#ff9b37",
+			"light": "#eef0f2",
+			"dark": "#3c4055"
+		}},
+	    {
+		"name": "Preptor",
+		"desc": "A bright, hot pink theme in good taste.",
+		"fonts": {
+		    "headings":"Lato",
+		    "base":"Muli"
+		},
+		"colors": {
+			"primary": "#D80E70",
+			"secondary": "#dddddd",
+			"success": "#4EF037",
+			"danger": "#FA4659",
+			"info": "#00BBF0",
+			"warning": "#f4f133",
+			"light": "#eeeeee",
+			"dark": "#353535"
+		}},
+		{
+		"name": "Monotone",
+		"fonts": {
+		    "headings":"Open Sans",
+		    "base":"Montserrat"
+		},
+		"desc": "You become resigned to the monotony of one color.",
+		"colors": {
+			"primary": "#222222",
+			"secondary": "#666666",
+			"success": "#333333",
+			"danger": "#434343",
+			"info": "#515151",
+			"warning": "#5f5f5f",
+			"light": "#eceeec",
+			"dark": "#111111"
+		}},
+		{
+		"name": "Sunset",
+		"fonts": {
+			"headings": "Voltaire"
+		},
+		"desc": "Hungover on the beach at sunrise.",
+		"images":{
+			"bg":"https://images.unsplash.com/photo-1503756043224-101dab0dcb30?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4bd62d181f78bd2f85ab23a677acd6f4&auto=format&fit=crop&w=1600&q=80"
+		},
+		"colors": {
+			"primary": "#2F414A",
+			"secondary": "#F47B53",
+			"success": "#420084",
+			"danger": "#f2460d",
+			"info": "#7ebcfa",
+			"warning": "#ff9933",
+			"light": "#eef0f2",
+			"dark": "#000633"
+		}}
+	]
+}

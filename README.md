@@ -14,7 +14,7 @@ the `bootstrap.css`:
 
 ```
 <link href="/path/to/bootstrap.min.css">
-<link href="/path/to/custom.css">
+<link href="/path/to/theme.css">
 
 ```
 

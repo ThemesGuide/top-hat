@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%- name %> Bootstrap 4 Template 3</title>
+    <meta name="description" content="A free, open source Bootstrap 4 theme by Themes.guide" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Whootstrap">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ionicons/3.0.0/css/ionicons.css" />
+    <link rel="stylesheet" href="theme.css" />
+    <link rel="stylesheet" href="template3.css" />
+  </head>
+<body data-spy="scroll" data-target="#navbar1" data-offset="60">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 p-0 bg-primary vh-50 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-7 py-2 text-light">
+                        <h1 class="display-3 mb-0">
+                            <span><%- name %></span>
+                        </h1>
+                        <p class="lead mb-3 w-75">
+                            <span><%- desc %></span> This font face is <%- fonts.headings %>. <a class="font-weight-bold text-white" href="http://whootstrap.themes.guide">Whootstrap</a> makes 
+                            it easy to customize this, and other free Bootstrap 4 themes for your downloading pleasure.
+                        </p>
+                        <a class="btn btn-outline-light btn-lg mr-2" href="http://whootstrap.themes.guide" target="_new">Customize</a> 
+                        <% include ./partials/download %> 
+                    </div>
+                    <div class="col-xl-6 col">
+                       <div class="text-lg-right" title="Theme colors">
+                           <h3>
+                               <span class="badge badge-pill bg-secondary" title="secondary">&nbsp;</span>
+                               <span class="badge badge-pill bg-success" title="success">&nbsp;</span>
+                               <span class="badge badge-pill bg-danger" title="danger">&nbsp;</span>
+                               <span class="badge badge-pill bg-info" title="info">&nbsp;</span>
+                               <span class="badge badge-pill bg-warning" title="warning">&nbsp;</span>
+                               <span class="badge badge-pill bg-light" title="light">&nbsp;</span>
+                               <span class="badge badge-pill bg-dark" title="dark">&nbsp;</span>
+                           </h3>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<% include ./partials/nav %> 
+<main>
+    <% include ./partials/components %>
+</main>
+<% include ./partials/footer %> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

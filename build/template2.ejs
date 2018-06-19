@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%- name %> Bootstrap 4 Template 2</title>
+    <meta name="description" content="<%- name %> is a free Bootstrap 4 theme by Themes.guide" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Whootstrap">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/ionicons/3.0.0/css/ionicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="theme.css" />
+    <link rel="stylesheet" href="template2.css" />
+  </head>
+  <body data-spy="scroll" data-target="#navbar1" data-offset="60">
+    <div class="bg-primary">
+        <div class="container">
+            <div class="row align-items-center vh-50 py-5">
+                <div class="col-xl-5 col-lg-6 ml-auto py-2 text-light order-2 text-center text-lg-left">
+                    <h1 class="mb-0">
+                        <span><%- name %></span>
+                    </h1>
+                    <p class="lead mb-3"><span><%- desc %></span> This font face is <%- fonts.headings %>. <a class="font-weight-bold text-white" href="http://whootstrap.themes.guide">Whootstrap</a> makes it easy to customize this, and other free Bootstrap 4 themes.</p>
+                    <a class="btn btn-outline-light btn-lg mr-2" href="http://whootstrap.themes.guide" target="_new">Customize</a> 
+                    <% include ./partials/download %>  
+                </div>
+                <div class="col-xl-4 col-lg-6 col mr-auto order-1 order-lg-last align-items-center justify-content-center justify-content-lg-end d-flex">
+                     <div class="img-fluid text-white">
+                        <svg class="i-desktop" viewBox="0 0 32 32" width="240" height="240" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5">
+                            <path d="M10 29 C10 29 10 24 16 24 22 24 22 29 22 29 L10 29 Z M2 6 L2 23 30 23 30 6 2 6 Z"></path>
+                        </svg>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% include ./partials/nav %> 
+    <main>
+        <section class="container">
+            <div class="row py-5">
+                <div class="col-12 my-auto">
+                    <div class="row text-center">
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <h1 class="display-2 text-primary"><span class="ion ion-ios-snow-outline"></span></h1>
+                                    <h4 class="card-title text-primary">Unique</h4>
+                                    <p class="card-text">Don't like that typical Bootstrap look? Each theme has a <strong>custom look-and-feel</strong>, while maximizing use of Bootstrap without extensive additional CSS & JS.</p>
+                                    <a href="#" class="btn btn-primary mt-auto">Button</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <h1 class="display-2 text-primary"><span class="ion ion-ios-tablet-portrait-outline"></span></h1>
+                                    <h4 class="card-title text-primary">Responsive</h4>
+                                    <p class="card-text">Based on <strong>mobile-first</strong> Bootstrap 4, all themes are 100% responsive and designed to look great on everything from smartphones to tablets to desktops..</p>
+                                    <a href="#" class="btn btn-primary mt-auto">Button</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <h1 class="display-2 text-primary"><span class="ion ion-ios-construct-outline"></span></h1>
+                                    <h4 class="card-title text-primary">Consistent</h4>
+                                    <p class="card-text">Themes are crafted with care for design and performance. Like Bootstrap, the themes are built on modern HTML5 & CSS3 standards to ensure consistency and <strong>cross-browser</strong> support.</p>
+                                    <a href="#" class="btn btn-primary mt-auto">Button</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% include ./partials/components %>
+    </main>
+    <% include ./partials/footer %> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
