@@ -1,7 +1,8 @@
 # TopHat Themes
+
 Free, open source themes to give Bootstrap 4 a custom, stylish look.
 
-A collection of free, open-source themes to give your Bootstrap 4 projects a unique, custom style. Simply download the `theme.css` file for any 
+A collection of open-source themes to give your Bootstrap 4 projects a unique, custom style. Simply download the `theme.css` file for any 
 theme, and include it after the standard bootstrap.css in your project's HTML templates. 
 Each theme also includes example layout templates to demonstrate Bootstrap 4 elements, components, and content integration.
 
