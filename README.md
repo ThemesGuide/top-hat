@@ -6,6 +6,8 @@ Give your Bootstrap 4 projects a unique, custom style. Simply download the `them
 theme, and include it after the standard bootstrap.css in your project's HTML templates. 
 Each theme also includes example layout templates to demonstrate Bootstrap 4 elements, components, and content integration.
 
+https://tophat.github.io/themes/dist/
+
 ## Usage
 
 Clone this repository or download individual themes as desired. Each theme folder contains a `theme.css` file which is the 
