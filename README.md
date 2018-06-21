@@ -35,4 +35,4 @@ Additionally, each theme folder contains example layout templates to get your st
 
 ## License
 
-©2018 under the [MIT License](https://opensource.org/licenses/MIT).
+©2018 under the [MIT License](https://opensource.org/licenses/MIT). Moved from /Tophat
