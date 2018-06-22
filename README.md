@@ -1,4 +1,4 @@
-# Tophat Themes
+# ThemesGuide Tophat Themes
 
 Free, open source themes to give Bootstrap 4 a custom, stylish look.
 
@@ -6,7 +6,7 @@ Give your Bootstrap 4 projects a unique, custom style. Simply download the `them
 theme, and include it after the standard bootstrap.css in your project's HTML templates. 
 Each theme also includes example layout templates to demonstrate Bootstrap 4 elements, components, and content integration.
 
-https://tophat.github.io/themes/dist/
+https://themesguide.github.io/top-hat/dist/
 
 ## Usage
 
