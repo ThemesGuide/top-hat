@@ -35,7 +35,7 @@ gulp.task('themes', function(cb) {
     for (var t in data.themes) {
         var theme = data.themes[t];
         var foldername = theme.name.toLowerCase().replace(" ","_");
-        var sassString = '/*! Whootstrap `'+ theme.name+'` Bootstrap '+bootstrapVersion+' theme */\n';
+        var sassString = '/*! Tophat `'+ theme.name+'` Bootstrap '+bootstrapVersion+' theme */\n';
         
         var colors = theme.colors;
         var variables = theme.vars;
